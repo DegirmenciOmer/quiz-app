@@ -19,16 +19,29 @@ body {
   min-height: 100vh;
 }
 
+#root{
+  margin: auto;
+  width: 450px;
+
+}
+
 .app {
   background-color: #252d4a;
-  width: 450px;
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+
+.success{
+  background-color: rgb(71, 252, 34) !important;
+}
+.fail{
+  background-color: indianred !important;
 }
 
 .score-section {
@@ -74,35 +87,43 @@ body {
 }
 
 button {
-  width: 100%;
   font-size: 16px;
   color: #ffffff;
   background-color: #252d4a;
   border-radius: 15px;
   display: flex;
+  margin-top: 5px;
   padding: 5px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  border: 5px solid #234668;
+  border: 5px solid #567492;
   cursor: pointer;
 }
 
 .correct {
-  background-color: #2f922f;
+  background-color: #2f922f !important;
 }
 
 .incorrect {
-  background-color: #ff3333;
+  background-color: #ff3333 !important
+  ;
 }
 
 button:hover {
   background-color: #555e7d;
 }
 
-button:focus {
-  outline: none;
-}
 
 button svg {
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+#root{width: 70vw;}
+}
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
+#root{width: 90vw;}
+
 }

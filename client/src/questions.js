@@ -1,118 +1,80 @@
 export const questions = [
-    {
-        questionText: 'the skill, system, or job of keeping the financial records of a business or person',
-        answerOptions: [
-            { answerText: 'boss', isCorrect: false },
-            { answerText: 'accounting', isCorrect: true },
-            { answerText: 'criminal', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'the person whose job is to tell other workers what to do ',
-        answerOptions: [
-    { answerText: 'accounting', isCorrect: false },
-            { answerText: 'criminal', isCorrect: false },
-            { answerText: 'fire', isCorrect: false },
-            { answerText: 'boss', isCorrect: true },
-        ],
-    },
-    {
-        questionText: 'not angry, upset, excited, etc',
-        answerOptions: [
-    { answerText: 'videographer', isCorrect: false },
-            { answerText: 'calm', isCorrect: true },
-            { answerText: 'rumor', isCorrect: false },
-            { answerText: 'fire', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'an amount of money available for spending that is based on a plan for how it will be spent ',
-        answerOptions: [
-    { answerText: 'update', isCorrect: false },
-            { answerText: 'scare', isCorrect: false },
-            { answerText: 'fire', isCorrect: false },
-            { answerText: 'budget', isCorrect: true },
-        ],
-    },
-    {
-        questionText: 'a person who has committed a crime or who has been proven to be guilty of a crime by a court ',
-        answerOptions: [
-    { answerText: 'update', isCorrect: false },
-            { answerText: 'scare', isCorrect: false },
-            { answerText: 'criminal', isCorrect: true },
-            { answerText: 'fire', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'a police offi cer whose job is to fi nd information about crimes that have occurred and to catch criminals',
-        answerOptions: [
-            { answerText: 'detective', isCorrect: true },
-            { answerText: 'update', isCorrect: false },
-            { answerText: 'criminal', isCorrect: false },
-            { answerText: 'budget', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'to dismiss (someone) from a job ',
-        answerOptions: [
-            { answerText: 'budget', isCorrect: false },
-            { answerText: 'reset', isCorrect: false },
-            { answerText: 'scare', isCorrect: false },
-            { answerText: 'fire', isCorrect: true },
-        ],
-    },
-    {
-        questionText: 'information or a story that is passed from person to person but has not been proven to be true',
-        answerOptions: [
-            { answerText: 'rumor', isCorrect: true },
-            { answerText: 'update', isCorrect: false },
-            { answerText: 'scare', isCorrect: false },
-            { answerText: 'fire', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'to cause (someone) to become afraid',
-        answerOptions: [
-            { answerText: 'climb', isCorrect: false },
-            { answerText: 'update', isCorrect: false },
-            { answerText: 'scare', isCorrect: true },
-            { answerText: 'fire', isCorrect: false },
-        ],
-    },
-    {
-        questionText: ' to change (something) by including the most recent information',
-        answerOptions: [
-            { answerText: 'budget', isCorrect: false },
-            { answerText: 'fire', isCorrect: false },
-            { answerText: 'scare', isCorrect: false },
-            { answerText: 'update', isCorrect: true },
-        ],
-    },
-    {
-        questionText: 'a person who records images or events using a video camera',
-        answerOptions: [
-            { answerText: 'budget', isCorrect: false },
-            { answerText: 'videographer', isCorrect: true },
-            { answerText: 'e-mail', isCorrect: false },
-            { answerText: 'dry', isCorrect: false },
-        ],
-    },
-    {
-        questionText: 'to talk about the personal lives of other people',
-        answerOptions: [
-            { answerText: 'budget', isCorrect: false },
-            { answerText: 'e-mail', isCorrect: false },
-            { answerText: 'dry', isCorrect: false },
-            { answerText: 'gossip', isCorrect: true },
-        ],
-    },
-    {
-        questionText: 'used as an angry way to tell someone to leave, (def ol)',
-        answerOptions: [
-            { answerText: 'come on', isCorrect: false },
-            { answerText: 'get out', isCorrect: true },
-            { answerText: 'help me', isCorrect: false },
-            { answerText: 'kick out', isCorrect: false },
-        ],
-    },
-];
+  {
+    questionText:
+      'Anna is good at asking questions. So, she goes back to hosting and reporting.',
+    answerOptions: [
+      { answerText: 'false', isCorrect: false },
+      { answerText: 'true', isCorrect: true },
+    ],
+  },
+  {
+    questionText: 'Anna will be a team leader',
+    answerOptions: [
+      { answerText: 'false', isCorrect: true },
+      { answerText: 'true', isCorrect: false },
+    ],
+  },
+  {
+    questionText: '....... people are happy people.',
+    answerOptions: [
+      { answerText: 'angry', isCorrect: false },
+      { answerText: 'cheerful', isCorrect: true },
+      { answerText: 'old', isCorrect: false },
+      { answerText: 'tired', isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Pete is Anna's ________ ",
+    answerOptions: [
+      { answerText: 'husband', isCorrect: false },
+      { answerText: 'boyfriend', isCorrect: false },
+      { answerText: 'boss', isCorrect: false },
+      { answerText: 'new partner', isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      'to get information about something because you want to know more about it, or to learn a fact or piece of information for the first time ',
+    answerOptions: [
+      { answerText: 'come in', isCorrect: false },
+      { answerText: 'throw away', isCorrect: false },
+      { answerText: 'find out', isCorrect: true },
+      { answerText: 'blow up', isCorrect: false },
+    ],
+  },
+  {
+    questionText: 'complete or full or not lacking or leaving out any part',
+    answerOptions: [
+      { answerText: 'entire', isCorrect: true },
+      { answerText: 'grumpy', isCorrect: false },
+      { answerText: 'criminal', isCorrect: false },
+      { answerText: 'lock', isCorrect: false },
+    ],
+  },
+  {
+    questionText: 'to dismiss (someone) from a job ',
+    answerOptions: [
+      { answerText: 'budget', isCorrect: false },
+      { answerText: 'reset', isCorrect: false },
+      { answerText: 'scare', isCorrect: false },
+      { answerText: 'fire', isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      'a person who enjoys or is particularly good at interacting with others',
+    answerOptions: [
+      { answerText: 'people person', isCorrect: true },
+      { answerText: 'grumpy', isCorrect: false },
+      { answerText: 'simple', isCorrect: false },
+    ],
+  },
+  {
+    questionText: 'Who is the boss?',
+    answerOptions: [
+      { answerText: 'Pete', isCorrect: false },
+      { answerText: 'Anna', isCorrect: false },
+      { answerText: 'Ms. Weaver', isCorrect: true },
+    ],
+  },
+]
